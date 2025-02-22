@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
+find_package(directx-headers CONFIG REQUIRED)
 find_package(mo2-cmake CONFIG REQUIRED)
 find_package(mo2-uibase CONFIG REQUIRED)
 find_package(mo2-dds-header CONFIG REQUIRED)

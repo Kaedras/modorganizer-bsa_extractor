@@ -13,8 +13,8 @@
     },
     {
       "kind": "git",
-      "repository": "https://github.com/ModOrganizer2/vcpkg-registry",
-      "baseline": "b826771be1e4507f28daffa5f2d8ae0bcfa7bf13",
+      "repository": "https://github.com/Kaedras/vcpkg-registry",
+      "baseline": "3e682eacdae5f42f683cc8b8ae3704a7d9af8df3",
       "packages": ["mo2-*"]
     }
   ]

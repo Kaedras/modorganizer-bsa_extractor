@@ -1,7 +1,9 @@
 {
   "dependencies": [
     "mo2-cmake",
+    "mo2-bsatk",
     "mo2-dds-header",
+    "mo2-uibase",
     "boost-thread",
     "boost-interprocess",
     "zlib",
