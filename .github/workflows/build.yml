@@ -20,6 +20,6 @@ jobs:
     steps:
       - name: Build BSA Extractor
         id: build-bsa-extractor
-        uses: Kaedras/build-with-mob-action
+        uses: Kaedras/build-with-mob-action@master
         with:
           mo2-dependencies: uibase bsatk
