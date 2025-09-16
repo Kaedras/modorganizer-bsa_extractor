@@ -10,7 +10,7 @@
   "features": {
     "standalone": {
       "description": "Build Standalone.",
-      "dependencies": ["mo2-cmake"]
+      "dependencies": ["mo2-cmake", "mo2-uibase", "mo2-bsatk"]
     }
   },
   "vcpkg-configuration": {
