@@ -1,10 +1,7 @@
 {
   "dependencies": [
     "mo2-dds-header",
-    {
-      "name": "mo2-dxgiformat-header",
-      "platform": "linux"
-    },
+    "directx-headers",
     "boost-thread",
     "boost-interprocess",
     "zlib",
@@ -32,7 +29,7 @@
       {
         "kind": "git",
         "repository": "https://github.com/Kaedras/vcpkg-registry",
-        "baseline": "5d1e2cf0d4cd22c5f2308e9722da0b918e129501",
+        "baseline": "0ccf3e95425704e3c8db0e229521bedc210aa993",
         "packages": ["mo2-*"]
       }
     ]
