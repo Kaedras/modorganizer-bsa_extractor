@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "mo2-dds-header",
-    "directx-headers",
+    "mo2-dxgiformat-header",
     "boost-thread",
     "boost-interprocess",
     "zlib",

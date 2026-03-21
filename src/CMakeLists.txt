@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 find_package(mo2-cmake CONFIG REQUIRED)
 find_package(mo2-uibase CONFIG REQUIRED)
-find_package(mo2-dds-header CONFIG REQUIRED)
+find_package(mo2-dxgiformat-header CONFIG REQUIRED)
 find_package(mo2-bsatk CONFIG REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(lz4 CONFIG REQUIRED)
