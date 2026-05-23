@@ -94,7 +94,7 @@ void BsaExtractor::modInstalledHandler(IModInterface *mod) {
     foreach (QFileInfo archiveInfo, archives) {
       BSA::Archive archive;
       BSA::EErrorCode result = archive.read(
-          archiveInfo.absoluteFilePath().toLocal8Bit().constData(), true);
+          archiveInfo.absoluteFilePath().toStdWString().c_str(), true);
       if ((result != BSA::ERROR_NONE) && (result != BSA::ERROR_INVALIDHASHES)) {
         reportError(tr("failed to read %1: %2")
                         .arg(archiveInfo.fileName())
@@ -108,7 +108,7 @@ void BsaExtractor::modInstalledHandler(IModInterface *mod) {
       progress.show();
 
       archive.extractAll(
-          mod->absolutePath().toLocal8Bit().constData(),
+          mod->absolutePath().toStdWString().c_str(),
           [this, &progress](int value, std::string filename) {
             return extractProgress(progress, value, filename);
           },
